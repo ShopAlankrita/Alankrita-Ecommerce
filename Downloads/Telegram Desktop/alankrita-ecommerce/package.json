@@ -6,7 +6,8 @@
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.3.0",
-    "tailwindcss": "^3.0.0"
+    "tailwindcss": "^3.0.0",
+    "vite": "^4.0.0"               // ✅ moved from devDependencies
   },
   "scripts": {
     "start": "vite",
@@ -14,6 +15,6 @@
     "dev": "vite"
   },
   "devDependencies": {
-    "vite": "^4.0.0"
+    "@vitejs/plugin-react": "^4.7.0"  // ✅ optional, if you use React plugin
   }
 }
